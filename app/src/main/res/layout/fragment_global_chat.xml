@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f6f1"
+    tools:context=".ui.globalchat.GlobalChatFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/global_chat_rec_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#f5f6f1"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:elevation="30dp"
+        android:fadingEdgeLength="30dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/global_chat_rec_view">
+
+        <EditText
+            android:id="@+id/editTextMessage"
+            style="@android:style/Widget.Material.EditText"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:autofillHints="0"
+            android:backgroundTint="#fff"
+            android:hint="Type Message.."
+            android:inputType="textMultiLine"
+            android:maxHeight="200dp"
+            android:maxLines="4"
+            android:padding="10dp"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/sendButton"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="right|center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/send_button_new" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

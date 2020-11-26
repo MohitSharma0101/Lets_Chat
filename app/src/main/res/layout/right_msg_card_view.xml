@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+android:layout_marginBottom="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@+id/rec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_margin="5dp"
+        android:layout_alignParentEnd="true"
+       android:elevation="5dp"
+        android:background="@drawable/right_msg_back"
+        >
+        <TextView
+            android:id="@+id/msg_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hi"
+            android:minWidth="70dp"
+            android:maxWidth="200dp"
+        android:padding="10dp"
+            android:textColor="#000"
+            android:layout_margin="5dp"
+        android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/timestamp_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5:00 PM"
+            android:textColor="#000"
+            android:layout_alignEnd="@id/msg_textView"
+            android:layout_alignBottom="@id/msg_textView"
+            android:textSize="10sp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

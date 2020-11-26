@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/profileBorder"/>
+    <item android:drawable="@drawable/lets_chat_icon"
+        android:gravity="center"
+        android:height="100dp"
+        android:id="@+id/splashIcon"
+    android:width="100dp"
+        android:transitionName="icon_transition"/>
+</layer-list>

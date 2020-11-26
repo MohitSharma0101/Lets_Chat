@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#465efc</color>
+    <color name="colorPrimaryDark">#465efc</color>
+    <color name="colorAccent">#448AFF</color>
+    <color name="darkBlue">#465efc</color>
+    <color name="profileBorder">#ffffff</color>
+    <color name="pink">#6E74B6</color>
+    <color name="primaryText">#212121</color>
+    <color name="secondaryText">#757575</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="lightBlue">#2196F3</color>
+    <color name="lightBlueShade">#82C1F3</color>
+    <color name="profileBorder2">#88465EFC</color>
+    <color name="colorPrimaryPix">#075e54</color>
+    <color name="colorPrimaryLightPix">#80075e54</color>
+</resources>
